@@ -1,4 +1,4 @@
-Kaggle Competition
+Kaggle Competition Using R
 ================
 Kaggle competitions are machine learning tasks made by Kaggle or other companies like Google or WHO. 
 If you compete successfully, you can win real money prizes. Competitions range in types of problems and complexity. You can take part in one even if you're a beginner.
