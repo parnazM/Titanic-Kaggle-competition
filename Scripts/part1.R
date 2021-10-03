@@ -1,7 +1,5 @@
-#set direcrtory
-setwd('E:/Kaggle competitions/Titanic')
-
-#import dataset
+#set directory
+#import dataset from directory
 train.model = read.csv(file = 'InputData/train.csv', stringsAsFactors = FALSE, header = TRUE)
 test.model = read.csv(file = 'InputData/test.csv', stringsAsFactors = FALSE, header = TRUE)
 
@@ -48,4 +46,4 @@ PassengerID = test.model$PassengerId
 df = as.data.frame(PassengerID)
 df$Survived = Survived
 
-write.csv(df, file = 'outputData/part1.CSV', row.names = F)
+#save output file
